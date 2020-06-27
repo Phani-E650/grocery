@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(104, 98, 98);
+    background-color: rgb(201, 196, 196);
     font-family: 'Open Sans', sans-serif;
 }
 .main{
@@ -8,17 +8,53 @@ body{
     height: 970px;
     background-color: #fff;
 }
-.main h1{
-    position: absolute;
-    left: 15em;
-    top:1em;
+.bannerimg{
+    float: left;
+}
+.mainhead{
+    padding-top: 1em;
+    margin-left: 280px;
+    height:100px;
+    
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px 5px red;
+    text-decoration: none;
+    font-size: 20px;
     
 }
-.main img{
-    float: left;
-    width:200px;
-    height: 125px;
+
+.nav{
+    background-color: black;
+    width: 100%;
+    height:40px; 
+    display: inline-block; 
+    padding-left: 250px;
+    box-sizing: border-box;
+}
+.nav ul{
     
+    overflow: auto;
+    list-style: none;
+    
+}
+.nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 12px;
+    margin-top: -10px;  
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.nav a.active {
+    background-color: lightgray;
+    color: #444;
+    cursor: default;
+}
     
 
-}
